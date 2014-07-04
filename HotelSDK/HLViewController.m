@@ -76,7 +76,7 @@
 
 #pragma mark tool method
 - (void)displayWebImage {
-    NSString *imageURL = @"http://b.hiphotos.baidu.com/image/w%3D310/sign=a33783a819d5ad6eaaf962ebb1cb39a3/b64543a98226cffc6f3b07debb014a90f603ea4d.jpg";
+    NSString *imageURL = @"www.baidu.com";
     [self.imageView requestImageWithURL:[NSURL URLWithString:imageURL]];
 }
 
