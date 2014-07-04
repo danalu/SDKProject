@@ -76,7 +76,7 @@
 
 #pragma mark tool method
 - (void)displayWebImage {
-    NSString *imageURL = @"www.baidu.com";
+    NSString *imageURL = @"abcdeg";
     [self.imageView requestImageWithURL:[NSURL URLWithString:imageURL]];
 }
 
